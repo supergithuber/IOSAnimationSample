@@ -15,6 +15,11 @@
 		CC23971A1C5F804F0091EDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2397181C5F804F0091EDC8 /* LaunchScreen.storyboard */; };
 		CC2397251C5F804F0091EDC8 /* IOSAnimationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2397241C5F804F0091EDC8 /* IOSAnimationSampleTests.m */; };
 		CC2397301C5F804F0091EDC8 /* IOSAnimationSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC23972F1C5F804F0091EDC8 /* IOSAnimationSampleUITests.m */; };
+		CC2397421C5FB2180091EDC8 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2397411C5FB2180091EDC8 /* PositionViewController.m */; };
+		CCCC94CB1C60CC4B00465BEA /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */; };
+		CCCC94CE1C60EFF300465BEA /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94CD1C60EFF300465BEA /* ScaleViewController.m */; };
+		CCCC94D11C60F27900465BEA /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94D01C60F27900465BEA /* ColorViewController.m */; };
+		CCCC94D41C60F72400465BEA /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94D31C60F72400465BEA /* RotateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		CC23972B1C5F804F0091EDC8 /* IOSAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC23972F1C5F804F0091EDC8 /* IOSAnimationSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAnimationSampleUITests.m; sourceTree = "<group>"; };
 		CC2397311C5F804F0091EDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2397401C5FB2180091EDC8 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionViewController.h; sourceTree = "<group>"; };
+		CC2397411C5FB2180091EDC8 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
+		CCCC94C91C60CC4B00465BEA /* OpacityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpacityViewController.h; sourceTree = "<group>"; };
+		CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpacityViewController.m; sourceTree = "<group>"; };
+		CCCC94CC1C60EFF300465BEA /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		CCCC94CD1C60EFF300465BEA /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
+		CCCC94CF1C60F27900465BEA /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		CCCC94D01C60F27900465BEA /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		CCCC94D21C60F72400465BEA /* RotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		CCCC94D31C60F72400465BEA /* RotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +117,16 @@
 			isa = PBXGroup;
 			children = (
 				CC23970D1C5F804F0091EDC8 /* AppDelegate.h */,
+				CCCC94D21C60F72400465BEA /* RotateViewController.h */,
+				CCCC94D31C60F72400465BEA /* RotateViewController.m */,
+				CCCC94C91C60CC4B00465BEA /* OpacityViewController.h */,
+				CCCC94CF1C60F27900465BEA /* ColorViewController.h */,
+				CCCC94D01C60F27900465BEA /* ColorViewController.m */,
+				CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */,
+				CC2397401C5FB2180091EDC8 /* PositionViewController.h */,
+				CC2397411C5FB2180091EDC8 /* PositionViewController.m */,
+				CCCC94CC1C60EFF300465BEA /* ScaleViewController.h */,
+				CCCC94CD1C60EFF300465BEA /* ScaleViewController.m */,
 				CC23970E1C5F804F0091EDC8 /* AppDelegate.m */,
 				CC2397101C5F804F0091EDC8 /* ViewController.h */,
 				CC2397111C5F804F0091EDC8 /* ViewController.m */,
@@ -274,8 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2397121C5F804F0091EDC8 /* ViewController.m in Sources */,
+				CCCC94CE1C60EFF300465BEA /* ScaleViewController.m in Sources */,
+				CCCC94CB1C60CC4B00465BEA /* OpacityViewController.m in Sources */,
 				CC23970F1C5F804F0091EDC8 /* AppDelegate.m in Sources */,
 				CC23970C1C5F804F0091EDC8 /* main.m in Sources */,
+				CC2397421C5FB2180091EDC8 /* PositionViewController.m in Sources */,
+				CCCC94D11C60F27900465BEA /* ColorViewController.m in Sources */,
+				CCCC94D41C60F72400465BEA /* RotateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wu.IOSAnimationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -431,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wu.IOSAnimationSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -501,6 +533,7 @@
 				CC2397361C5F804F0091EDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2397371C5F804F0091EDC8 /* Build configuration list for PBXNativeTarget "IOSAnimationSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +542,7 @@
 				CC2397391C5F804F0091EDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC23973A1C5F804F0091EDC8 /* Build configuration list for PBXNativeTarget "IOSAnimationSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +551,7 @@
 				CC23973C1C5F804F0091EDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

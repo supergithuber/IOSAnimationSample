@@ -17,6 +17,7 @@
 		CC2397301C5F804F0091EDC8 /* IOSAnimationSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC23972F1C5F804F0091EDC8 /* IOSAnimationSampleUITests.m */; };
 		CC2397421C5FB2180091EDC8 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2397411C5FB2180091EDC8 /* PositionViewController.m */; };
 		CC26D8231C99AC4C00C3C439 /* RepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26D8221C99AC4C00C3C439 /* RepeatViewController.m */; };
+		CC98EEF41C9AE51D008D2380 /* EasingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC98EEF31C9AE51D008D2380 /* EasingViewController.m */; };
 		CCCC94CB1C60CC4B00465BEA /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */; };
 		CCCC94CE1C60EFF300465BEA /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94CD1C60EFF300465BEA /* ScaleViewController.m */; };
 		CCCC94D11C60F27900465BEA /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC94D01C60F27900465BEA /* ColorViewController.m */; };
@@ -61,6 +62,8 @@
 		CC2397411C5FB2180091EDC8 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionViewController.m; sourceTree = "<group>"; };
 		CC26D8211C99AC4C00C3C439 /* RepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatViewController.h; sourceTree = "<group>"; };
 		CC26D8221C99AC4C00C3C439 /* RepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatViewController.m; sourceTree = "<group>"; };
+		CC98EEF21C9AE51D008D2380 /* EasingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingViewController.h; sourceTree = "<group>"; };
+		CC98EEF31C9AE51D008D2380 /* EasingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingViewController.m; sourceTree = "<group>"; };
 		CCCC94C91C60CC4B00465BEA /* OpacityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpacityViewController.h; sourceTree = "<group>"; };
 		CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpacityViewController.m; sourceTree = "<group>"; };
 		CCCC94CC1C60EFF300465BEA /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				CCCC94CF1C60F27900465BEA /* ColorViewController.h */,
 				CCCC94D01C60F27900465BEA /* ColorViewController.m */,
 				CCCC94CA1C60CC4B00465BEA /* OpacityViewController.m */,
+				CC98EEF21C9AE51D008D2380 /* EasingViewController.h */,
+				CC98EEF31C9AE51D008D2380 /* EasingViewController.m */,
 				CC2397401C5FB2180091EDC8 /* PositionViewController.h */,
 				CC2397411C5FB2180091EDC8 /* PositionViewController.m */,
 				CC26D8211C99AC4C00C3C439 /* RepeatViewController.h */,
@@ -304,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2397121C5F804F0091EDC8 /* ViewController.m in Sources */,
+				CC98EEF41C9AE51D008D2380 /* EasingViewController.m in Sources */,
 				CC26D8231C99AC4C00C3C439 /* RepeatViewController.m in Sources */,
 				CCCC94CE1C60EFF300465BEA /* ScaleViewController.m in Sources */,
 				CCCC94CB1C60CC4B00465BEA /* OpacityViewController.m in Sources */,
